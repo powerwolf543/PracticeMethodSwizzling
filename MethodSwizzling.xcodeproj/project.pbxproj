@@ -13,6 +13,8 @@
 		25FAA17E1F434137004F129C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FAA17C1F434137004F129C /* Main.storyboard */; };
 		25FAA1801F434137004F129C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FAA17F1F434137004F129C /* Assets.xcassets */; };
 		25FAA1831F434137004F129C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FAA1811F434137004F129C /* LaunchScreen.storyboard */; };
+		25FAA18C1F43420F004F129C /* SubAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FAA18B1F43420F004F129C /* SubAViewController.m */; };
+		25FAA18F1F434802004F129C /* SubBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FAA18E1F434802004F129C /* SubBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		25FAA17F1F434137004F129C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25FAA1821F434137004F129C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25FAA1841F434137004F129C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FAA18A1F43420F004F129C /* SubAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAViewController.h; sourceTree = "<group>"; };
+		25FAA18B1F43420F004F129C /* SubAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubAViewController.m; sourceTree = "<group>"; };
+		25FAA18D1F434802004F129C /* SubBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubBViewController.h; sourceTree = "<group>"; };
+		25FAA18E1F434802004F129C /* SubBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				25FAA1771F434136004F129C /* AppDelegate.m */,
 				25FAA1791F434136004F129C /* ViewController.h */,
 				25FAA17A1F434136004F129C /* ViewController.m */,
+				25FAA18A1F43420F004F129C /* SubAViewController.h */,
+				25FAA18B1F43420F004F129C /* SubAViewController.m */,
+				25FAA18D1F434802004F129C /* SubBViewController.h */,
+				25FAA18E1F434802004F129C /* SubBViewController.m */,
 				25FAA17C1F434137004F129C /* Main.storyboard */,
 				25FAA17F1F434137004F129C /* Assets.xcassets */,
 				25FAA1811F434137004F129C /* LaunchScreen.storyboard */,
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FAA18F1F434802004F129C /* SubBViewController.m in Sources */,
 				25FAA17B1F434136004F129C /* ViewController.m in Sources */,
 				25FAA1781F434136004F129C /* AppDelegate.m in Sources */,
 				25FAA1751F434136004F129C /* main.m in Sources */,
+				25FAA18C1F43420F004F129C /* SubAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

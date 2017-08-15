@@ -3,10 +3,8 @@
 //  Copyright © 2017 NixonShih. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface SubAViewController : ViewController
 
 @end
-
